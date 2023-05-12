@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sandrozone | Ecommerce Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+<div class="header">
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+               <a href="index.html"><img src="Images/logo-color.png" width="230px"></a>
+            </div>
+            <nav>
+                <ul id="MenuItems">
+                    <li><a href="index.html">მთავარი გვერდი</a></li>
+                    <li><a href="products.html">პროდუქტები</a></li>
+                                     
+                    <li><a href="Account.html">შესვლა/რეგისტრაცია</a></li>
+                </ul>
+            </nav>
+           <a href="cart1.html"><i class="fa-solid fa-cart-shopping"></i></a>
+            <img src="Images/menu.png" class="menu-icon" onclick="MenuToggle()">
+        </div>
+        <div class="row">
+            <div class="col-2">
+           <h1>ივარჯიშეთ <br> ახალი <br> სტილით!</h1>
+           <p>წარმატება ყოველთვის არ არის სიდიადე. მთავარია თანმიმდევრულობა. თანმიმდევრული ძალისხმევა იწვევს წარმატებას. დიდება კი მოვა.</p>
+            <a href="products.html" class="btn">მოძებნეთ &#8594;</a>
+            </div>
+            <div class="col-2">
+              <img src="Images/image1.png" >
+            </div>
+        </div>
+    </div>
+</div>
+    
+ <!--featured categories -->
+<div class="categories">
+    <div class="small-container">
+        <div class="row">
+            <div class="col-3">
+                <img src="Images/category-1.jpg">
+            </div>
+            <div class="col-3">
+                <img src="Images/category-2.jpg">
+            </div>
+            <div class="col-3">
+                <img src="Images/category-3.jpg">
+            </div>
+        </div>
+    </div>
+   
+</div>
+
+<!------ featured products ------>
+<div class="small-container">
+    <h2 class="title">გამორჩეული პროდუქცია</h2>
+    <div class="row">
+        <div class="col-4">
+            <a href="product-details.html"><img src="Images/product-1.jpg"></a>
+            <a href="product-details.html"></a><h4>წითელი მაისური</h4> 
+            <div class="rating">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+            </div>
+            <p>ლარი 35.00</p>
+        </div>
+        <div class="col-4">
+            <a href="Shopping.html"><img src="Images/product-2.jpg"></a>
+            <h4>შავი სნიკერი</h4> 
+            <div class="rating">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+            </div>
+            <p>ლარი 50.00</p>
+        </div>
+        <div class="col-4">
+            <a href="Shopping.html"><img src="Images/product-3.jpg"></a> 
+            <h4>ნაცრისფერი შარვალი</h4> 
+            <div class="rating">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half-stroke"></i>
+            </div>
+            <p>ლარი 45.00</p>
+        </div>
+        <div class="col-4">
+            <a href="Shopping.html"><img src="Images/product-4.jpg"></a> 
+            <h4>ლურჯი მაისური</h4> 
+            <div class="rating">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+            </div>
+            <p>ლარი 30.00</p>
+        </div>
+    </div>
+    <h2 class="title">უახლესი პროდუქცია</h2>
+    <div class="row">
+        <div class="col-4">
+            <a href="Shopping.html"><img src="Images/product-5.jpg"></a> 
+            <h4>სპორტული ფეხსაცმელი</h4> 
+            <div class="rating">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+            </div>
+            <p>ლარი 70.00</p>
+        </div>
+        <div class="col-4">
+            <a href="Shopping.html"><img src="Images/product-6.jpg"></a> 
+            <h4>მაისური</h4> 
+            <div class="rating">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+            </div>
+            <p>ლარი 35.00</p>
+        </div>
+        <div class="col-4">
+            <a href="Shopping.html"><img src="Images/product-7.jpg"></a> 
+            <h4>წინდები</h4> 
+            <div class="rating">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half-stroke"></i>
+            </div>
+            <p>ლარი 30.00</p>
+        </div>
+        <div class="col-4">
+            <a href="Shopping.html"><img src="Images/product-8.jpg"></a> 
+            <h4>მაჯის საათი</h4> 
+            <div class="rating">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+            </div>
+            <p>ლარი 120.00</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-4">
+            <a href="Shopping.html"><img src="Images/product-9.jpg"> </a>
+            <h4>მაჯის საათი</h4> 
+            <div class="rating">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+            </div>
+            <p>ლარი 110.00</p>
+        </div>
+        <div class="col-4">
+            <a href="Shopping.html"><img src="Images/product-10.jpg"> </a>
+            <h4>სპორტული ფეხსაცმელი</h4> 
+            <div class="rating">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+            </div>
+            <p>ლარი 120.00</p>
+        </div>
+        <div class="col-4">
+            <a href="Shopping.html"><img src="Images/product-11.jpg"> </a>
+            <h4>სპორტული ფეხსაცმელი</h4> 
+            <div class="rating">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half-stroke"></i>
+            </div>
+            <p>ლარი 45.00</p>
+        </div>
+        <div class="col-4">
+            <a href="Shopping.html"><img src="Images/product-12.jpg"></a>
+            <h4>სპორტული შარვალი</h4> 
+            <div class="rating">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+            </div>
+            <p>ლარი 80.00</p>
+        </div>
+    </div>
+</div>
+<!-- offer-->
+<div class="offer">
+    <div class="small-container">
+        <div class="row">
+            <div class="col-2">
+                <img src="Images/exclusive.png" class="offer-img">
+            </div>
+            <div class="col-2">
+                <p>იხილეთ უკვე სანდროზონზეც</p>
+                <h1>სმარტ სამაჯური 4</h1>
+                <small>Mi-ს სმარტ სამაჯური 4 გამოირჩევა წინამორბედ მოდელ 3-თან შედარებით 39.9%-ით უფრო დიდი ამოლედის სენსორული ეკრანით. 
+                </small>
+                    <a href="cart.html" class="btn">შეიძინეთ ახლა! &#8594;</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Testimonial 
+<div class="testimonial">
+    <div class="small-container">
+        <div class="row">
+            <div class="col-3">
+                <i class="fa-solid fa-quote-left"></i>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,</p>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <img src="Images/user-1.png">
+                <h3>Sean</h3>
+            </div>
+            <div class="col-3">
+                <i class="fa-solid fa-quote-left"></i>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,</p>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <img src="Images/user-2.png">
+                <h3>Mike</h3>
+            </div>
+            <div class="col-3">
+                <i class="fa-solid fa-quote-left"></i>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,</p>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <img src="Images/user-3.png">
+                <h3>Mabel</h3>
+            </div>
+        </div>
+    </div>
+</div>
+>
+<!-- brands -->
+<div class="brands">
+    <div class="small-container">
+        <div class="row">
+            <div class="col-5">
+               <a href="https://www.godrej.com/"><img src="Images/logo-godrej.png"></a>
+            </div>
+            <div class="col-5">
+               <a href="https://www.oppo.com/en/"><img src="Images/logo-oppo.png"></a>
+            </div>
+            <div class="col-5">
+                <a href="https://us.coca-cola.com/"><img src="Images/logo-coca-cola.png"></a>
+            </div>
+            <div class="col-5">
+                <a href="https://www.paypal.com/ge/home"><img src="Images/logo-paypal.png"></a>
+            </div>
+            <div class="col-5">
+                <a href="https://www.usa.philips.com/"><img src="Images/logo-philips.png"></a>
+            </div>
+        </div>
+    </div>
+</div>
+<!--Footer-->
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col-1">
+                <h3>ჩამოტვირთეთ</h3>
+                <p>ჩვენი აპლიკაცია Android და Ios მობილური ტელეფონებისათვის</p>
+                <div class="app-logo">
+                    <a href="https://play.google.com/store/games?pli=1"><img src="images/play-store.png"></a>
+                    <a href="https://www.apple.com/ge/app-store/"><img src="images/app-store.png"></a>
+                </div>
+            </div>
+            <div class="footer-col-2">
+                <img src="Images/logo-color.png">
+                <h3>დაგვიკავშირდით <br> ტელ: +995 595 114299 <br> ელ.ფოსტა: sandroapakidze@gmail.com</h3>
+                <p>ჩვენი მიზანია სპორტით მიღებული სიამოვნება და სარგებელი <br> გავხადოთ ბევრისათვის ხელმისაწვდომი</p>
+            </div>
+            <div class="footer-col-4">
+                <h3>გვეწვიეთ!</h3>
+               <ul>
+                <a href="https://facebook.com"><li>Facebook</li></a>
+                <a href="https://Twitter.com"><li>Twitter</li></a>
+                <a href="https://Instagram.com"><li>Instagram</li></a>
+                <a href="https://Youtube.com"><li>Youtube</li></a>
+               </ul>
+            </div> 
+        </div>
+        <hr>
+        <p class="Copyright">Copyright 2023 - Sandro Apakidze</p>
+    </div>
+</div>
+
+
+
+<script src="index.js"></script>
+
+</body>
+</html>
